@@ -87,22 +87,24 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-var title = 'Financial Analysis'
 
 // Write a title to console
-console.log(title)
+console.log("Financial Analysis")
+console.log("--------------------------------")
 
+// variable for selecting month string.
+let numberOfMonths = [[]];
 
-// var for selecting month string.
-var dateElement = finances[0];
+// variable for selecting profit/loss number in array.
+let profitOrLoss = [[]];
 
-// var for selecting profit/loss number in array.
-var numberElement = finances[1];
+// Total number of months included in the dataset.
+for (let i = 0; i < finances.length; i++) {
+    numberOfMonths.push(finances[i]);
+}
 
-// The total number of months included in the dataset.
-var totalNumberMonths = 'Total of Months : ';
-// start total of months from 0.
-var monthStart = 0;
+console.log("Total Number of Months " + finances.length)
+
 
 // The net total amount of Profit/Losses over the entire period.
 
