@@ -92,6 +92,12 @@ var finances = [
 console.log("Financial Analysis")
 console.log("--------------------------------")
 
+// set currency to British Pounds
+let britishPounds = new Intl.NumberFormat('en-GB', { 
+    style: 'currency',
+    currency: 'GBP',
+})
+
 // variable for selecting month string.
 let numberOfMonths = [[]];
 
@@ -103,7 +109,7 @@ for (let i = 0; i < finances.length; i++) {
     numberOfMonths.push(finances[i]);
 }
 
-console.log("Total Number of Months " + finances.length)
+console.log("Total Number of Months: " + finances.length)
 
 
 // The net total amount of Profit/Losses over the entire period.
@@ -112,7 +118,8 @@ for (let i = 0; i < finances.length; i++) {
     totalProfitLoss += finances[i][1];
 }
 
-console.log(totalProfitLoss)
+// console.log(totalProfitLoss)
+console.log(britishPounds.format(totalProfitLoss))
 
 // The average of the changes in Profit/Losses over the entire period.
 
