@@ -119,7 +119,7 @@ for (let i = 0; i < finances.length; i++) {
 }
 
 // console.log(totalProfitLoss)
-console.log(britishPounds.format(totalProfitLoss))
+console.log("Total: " + britishPounds.format(totalProfitLoss))
 
 // The average of the changes in Profit/Losses over the entire period.
 
