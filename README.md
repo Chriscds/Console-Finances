@@ -10,6 +10,8 @@ N/A
 ## Usage
 Inspect element of the webpage and go to console to see the finacial breakdown written using javascript.
 
+## Screenshot
+![Financial Analysis](Financial Analysis Assignment.png)
 ## Credits
 
 N/A
