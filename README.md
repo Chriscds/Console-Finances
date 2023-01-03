@@ -9,6 +9,8 @@ Javascript written for using the console to report finances. This is for my assi
 N/A
 ## Usage
 Inspect element of the webpage and go to console to see the finacial breakdown written using javascript.
+[Click Here to view.](https://chriscds.github.io/Console-Finances/index.html)
+
 
 ## Screenshot
 ![Financial Analysis](Financial Analysis Assignment.png)
