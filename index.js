@@ -118,13 +118,13 @@ for (let i = 0; i < finances.length; i++) {
     totalProfitLoss += finances[i][1];
 }
 
-// console.log(totalProfitLoss)
+// prints total of profit and loss to the console in currency.
 console.log("Total: " + britishPounds.format(totalProfitLoss))
 
 // The average of the changes in Profit/Losses over the entire period.
+let averageProfitLoss = finances.reduce( (sum, item) => sum += item[1], 0)/ finances.length;
 
-// You will need to track what the total change in profits is from month to month and then find the average.
-// (Total/Number of months)
+console.log(averageProfitLoss);
 
 // The greatest increase in profits (date and amount) over the entire period.
 
