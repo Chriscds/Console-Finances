@@ -96,6 +96,7 @@ console.log("--------------------------------")
 let britishPounds = new Intl.NumberFormat('en-GB', { 
     style: 'currency',
     currency: 'GBP',
+    minimumFractionDigits: 0,
 })
 
 // variable for selecting month string.
@@ -124,7 +125,10 @@ console.log("Total: " + britishPounds.format(totalProfitLoss))
 // The average of the changes in Profit/Losses over the entire period.
 let averageProfitLoss = finances.reduce( (sum, item) => sum += item[1], 0)/ finances.length;
 
-console.log(averageProfitLoss);
+let averageChange = Math.round(averageProfitLoss);
+let averageProfitLossChange = Math.trunc(averageChange);
+
+console.log("Average Change: " + britishPounds.format(averageProfitLossChange));
 
 // The greatest increase in profits (date and amount) over the entire period.
 
