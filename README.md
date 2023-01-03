@@ -13,7 +13,7 @@ Inspect element of the webpage and go to console to see the finacial breakdown w
 
 
 ## Screenshot
-![Financial Analysis](Financial Analysis Assignment.png)
+![Financial Analysis](https://github.com/Chriscds/Console-Finances/blob/main/Financial Analysis Assignment.png)
 ## Credits
 
 N/A
