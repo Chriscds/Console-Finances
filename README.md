@@ -5,10 +5,12 @@ Date and Profit/Loss analyser.
 Javascript written for using the console to report finances. This is for my assignment 4, to show a financial analysis in the console using javascript.
 
 ## Built With
+* HTML
+* Javascript
 
 
 ## Screenshot
-[![Financial Analysis Tool][Financial-Analysis.png]](https://github.com/Chriscds/Console-Finances/blob/61f3043ccd441e0d74745077360eca5ae52a1b47/Financial-Analysis.png)
+![Financial Analysis Tool](images/Financial-Analysis.png)
 
 
 ## Usage
