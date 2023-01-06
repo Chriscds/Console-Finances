@@ -8,7 +8,7 @@ Javascript written for using the console to report finances. This is for my assi
 
 
 ## Screenshot
-[![Financial Analysis Tool][Financial-Analysis.png]]
+[![Financial Analysis Tool][Financial-Analysis.png]](https://github.com/Chriscds/Console-Finances/blob/61f3043ccd441e0d74745077360eca5ae52a1b47/Financial-Analysis.png)
 
 
 ## Usage
